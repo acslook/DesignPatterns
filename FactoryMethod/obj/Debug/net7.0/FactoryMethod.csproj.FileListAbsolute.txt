@@ -1,0 +1,15 @@
+D:\Projects\DesignPatterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.exe
+D:\Projects\DesignPatterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.deps.json
+D:\Projects\DesignPatterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.runtimeconfig.json
+D:\Projects\DesignPatterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.dll
+D:\Projects\DesignPatterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.pdb
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.csproj.AssemblyReference.cache
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.AssemblyInfoInputs.cache
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.AssemblyInfo.cs
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.csproj.CoreCompileInputs.cache
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.dll
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\refint\FactoryMethod.dll
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.pdb
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.genruntimeconfig.cache
+D:\Projects\DesignPatterns\FactoryMethod\obj\Debug\net7.0\ref\FactoryMethod.dll
