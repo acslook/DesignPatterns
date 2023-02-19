@@ -3,8 +3,8 @@ var cliente1 = new Cliente("Cliente1");
 var cliente2 = new Cliente("Cliente2");
 
 Temperatura temperatura = new Temperatura(120.00, "C");
-temperatura.Attach(cliente1);
-temperatura.Attach(cliente2);
+temperatura.AddObservador(cliente1);
+temperatura.AddObservador(cliente2);
 // Simulando mudança de temperatura e notificando os clientes
 temperatura.Valor = 120.10;
 temperatura.Valor = 121.00;
@@ -13,14 +13,14 @@ temperatura.Valor = 120.75;
 
 // Criando subject (Sensor) e inserindo os Observers (Cliente)
 Humidade humidade = new Humidade(120.00, "%");
-humidade.Attach(cliente1);
-humidade.Attach(cliente2);
+humidade.AddObservador(cliente1);
+humidade.AddObservador(cliente2);
 // Simulando mudança de humidade e notificando os clientes
 humidade.Valor = 97;
 humidade.Valor = 80;
 
 // Removendo um observer
-humidade.Detach(cliente2);
+humidade.RemoverObservador(cliente2);
 humidade.Valor = 50;
 humidade.Valor = 35;
 
@@ -44,17 +44,17 @@ public abstract class Sensor
         this.valor = valor;
     }
 
-    public void Attach(ICliente cliente)
+    public void AddObservador(ICliente cliente)
     {
         clientes.Add(cliente);
     }
 
-    public void Detach(ICliente cliente)
+    public void RemoverObservador(ICliente cliente)
     {
         clientes.Remove(cliente);
     }
 
-    public void Notify()
+    public void Notificar()
     {
         foreach (ICliente clientes in clientes)
         {
@@ -71,7 +71,7 @@ public abstract class Sensor
             if (valor != value)
             {
                 valor = value;
-                Notify();
+                Notificar();
             }
         }
     }
